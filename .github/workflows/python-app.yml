@@ -35,5 +35,4 @@ jobs:
         python app.py
     - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
       with:
-        default_author: Anonymous <>
-        new_branch: sunrinlife_backend
+        default_author: github_actions
