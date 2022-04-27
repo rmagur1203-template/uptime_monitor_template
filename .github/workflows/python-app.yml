@@ -16,6 +16,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      SERVICE_DOMAIN: http://devapi.sunrint.life
+      STORE_LIMIT: 1000
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
