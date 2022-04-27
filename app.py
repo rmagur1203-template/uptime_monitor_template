@@ -3,6 +3,8 @@ import os
 import json
 import datetime
 
+print(os.environ)
+
 try:
   remote = os.environ.SERVICE_DOMAIN
 except:
