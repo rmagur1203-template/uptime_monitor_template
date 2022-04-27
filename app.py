@@ -6,11 +6,11 @@ import datetime
 print(os.environ)
 
 try:
-  remote = os.environ.SERVICE_DOMAIN
+  remote = os.environ.get('SERVICE_DOMAIN')
 except:
   remote = input()
 try:
-  limit = int(os.environ.STORE_LIMIT)
+  limit = int(os.environ.get('STORE_LIMIT'))
 except:
   limit = int(input())
 
